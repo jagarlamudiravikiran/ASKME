@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (2.3.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.3.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.0)
+  - AFNetworking/Security (2.3.0)
+  - AFNetworking/Serialization (2.3.0)
+  - AFNetworking/UIKit (2.3.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.1.0)
+  - Facebook-iOS-SDK (3.14.1):
+    - Bolts
+  - IOSLinkedInAPI (2.0.0):
+    - AFNetworking (>= 2.0.0)
+  - JSONKit (1.5pre)
+  - Reachability (3.1.1)
+  - TMCache (1.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.2)
+  - Facebook-iOS-SDK
+  - IOSLinkedInAPI
+  - JSONKit (from `./JSONKIT.podspec`)
+  - Reachability (~> 3.0)
+  - TMCache
+
+EXTERNAL SOURCES:
+  JSONKit:
+    :podspec: ./JSONKIT.podspec
+
+SPEC CHECKSUMS:
+  AFNetworking: e7abefee64543aa978c9d759bc8892402b1ed7d1
+  Bolts: 91c2af8eae1d44e1dd75946a5b0ae04a43ea43e4
+  Facebook-iOS-SDK: e9b3d5ac54ee3e5e693f4eef470b97911b3d076d
+  IOSLinkedInAPI: 5b400668a260a3594af94e363ade95933ce22db8
+  JSONKit: 0e771281de49d7019c0bfc883e544549528a328b
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  TMCache: ea1c509badaf9a1245422aabf3c975b3277ab138
+
+COCOAPODS: 0.33.1

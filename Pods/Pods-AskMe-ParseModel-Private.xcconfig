@@ -1,0 +1,5 @@
+#include "Pods-AskMe-ParseModel.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/ParseModel" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/Bolts" "${PODS_ROOT}/Headers/Facebook-iOS-SDK" "${PODS_ROOT}/Headers/Facebook-iOS-SDK/FacebookSDK" "${PODS_ROOT}/Headers/IOSLinkedInAPI" "${PODS_ROOT}/Headers/JSONKit" "${PODS_ROOT}/Headers/Parse" "${PODS_ROOT}/Headers/ParseModel" "${PODS_ROOT}/Headers/Reachability"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
